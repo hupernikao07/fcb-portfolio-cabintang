@@ -1,0 +1,62 @@
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+	color: #007bff;
+}
+
+#profile {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: 5px solid #d4d4d4;
+}
+
+#landing {
+	/* viewport height */
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: transparent;
+}
+
+
+#gallery {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 75vh;
+	background: #282828;
+	border-radius: 6px;
+
+}
+
+.tools ul{
+	list-style: none;
+	padding: 0;
+	color: #ffffff;
+}
+
+ul li:hover{
+	color: blue;
+	cursor: pointer;
+}
+
+.tools {
+	margin: 20px;
+	padding: 25px;
+	height: 200px;
+	width: 75%;
+}
